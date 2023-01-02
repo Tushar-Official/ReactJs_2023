@@ -1,9 +1,33 @@
 Theory -
 ● What is Emmet?
+-->Emmet is a free add-on for your text editor. It allows you to type shortcuts that are then expanded into full pieces of code .
+
 ● Difference between a Library and Framework?
+-->Libraries provide developers with predefined functions and classes to make their work easier and boost the development process. 
+Framework, on the other hand, is like the foundation upon which developers build applications for specific platforms .
+
 ● What is CDN? Why do we use it?
+-->A CDN is a content delivery network. It is a system of distributed servers that deliver web content to users based on their geographic location. 
+CDNs are used to improve website performance by reducing latency and providing a more reliable connection
+
 ● Why is React known as React?
+-->React is named React because of its ability to react to changes in data. When the data in a React component changes, 
+React will automatically re-render the component so that it reflects the new data. 
+This makes it easy to create performant user interfaces that always look up-to-date.
+
 ● What is crossorigin in script tag?
+-->The crossorigin attribute sets the mode of the request to an HTTP CORS Request. Web pages often make requests to load resources on other servers.
+Here is where CORS comes in. A cross-origin request is a request for a resource (e.g. style sheets, iframes, images, fonts, or scripts) from another domain.
+
 ● What is diference between React and ReactDOM
+-->React library is responsible for creating views and ReactDOM library is responsible to actually render UI in the browser.
+
 ● What is difference between react.development.js and react.production.js files via CDN?
+-->The development build is used - as the name suggests - for development reasons. You have Source Maps, debugging and often times hot reloading ability in those builds. 
+The production build, 
+on the other hand, runs in production mode which means this is the code running on your client's machine.
+
 ● What is async and defer?
+-->
+Async- <script async src="... "/> ---> In this HTML attribute is executed and script is accepted along eth HTML .Once the script gets executed html attribute is executed .
+Defer- <script defer src="..."/> ---> In this In this script is accepted along with HTML attribute and the execution of scripts take place after te HTML attribute is executed .
